@@ -1,0 +1,96 @@
+
+/*INICIO*/
+
+.bienvenidos{
+    background-image: url("images/Textured-wallpaper.jpg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+    /*navbar*/
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+        margin: .1rem .2rem;
+
+        transition: all .3s;
+    }
+
+        #menuPrincipal{
+            clear: both;
+        }
+            .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+                background-color: brown;
+            }
+            .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+                background-color: brown;
+            }
+    /*text*/
+    .textoBienvenido{
+        color: white;
+        margin-top: 6rem;
+    }
+        .btn-primary{
+            color: #fff;
+            background-color: brown;
+            border-color: rgb(129, 33, 33);
+        }
+        .btn-primary:hover{
+            color: #fff;
+            background-color: rgb(167, 64, 64);
+            border-color: rgb(131, 40, 40);
+        }
+
+/*QUIENES SOMOS*/
+
+.quienesSomos{
+    background-color: brown;
+    color: #fff;
+}
+
+/*SERVICIOS*/
+
+.servicios img{
+    width: 50px;
+}
+
+
+/*ULTIMOS PROYECTOS*/
+
+.ultimosProyectos{
+    background: rgb(71, 71, 71);
+    color: #fff;
+}
+
+.ultimosProyectos img{
+    background-color: rgb(255, 255, 255);
+
+    transition: transform .3s;
+}
+
+.ultimosProyectos a{
+    width: fit-content;
+    height: 80%;
+
+    display: block;
+    overflow: hidden;
+}
+
+.ultimosProyectos a:hover img{
+    transform: scale(1.2);
+}
+
+/*FOOTER*/
+
+.footer{
+    color: white;
+    background-color: black;
+}
+
+/*querys*/
+@media (min-width: 768px){
+
+    html{
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!--BOOTSTRAP-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <section class="bienvenidos">
+
+        <div class="container">
+
+            <header class="encabezado">
+                
+                
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!-- el ultimo para que quede por encima de los otros divs-->
+                    
+                    <div class="container"> <!--para que no quede en los bordes el nav-->
+                    
+                        <!--logo-->
+                        <a class="navbar-brand float-right" href="#!">Logo Bootstrap</a>
+                        <!--btn menu-->
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!--menu-->
+                        <div class="collapse navbar-collapse" id="menuPrincipal">
+                          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#!"> Inicio </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#!"> Nosotros </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#!"> Servicios </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!"> Portafolio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!"> Contacto </a>
+                            </li>
+                          </ul>
+                        </div>
+                        
+                    </div>
+                    
+                </nav>
+                
+
+                <div class="textoBienvenido text-center">
+                    <p class="h5">	Bienvenidos a nuestro estudio </p>
+                    <h1 class="display-4 mb-3"> ENCANTADOS DE CONOCERTE </h1> <!--mb-3 = margin bottom 3-->
+                    <a href="#" class="btn btn-primary btn-lg"> Ponte en contacto </a>
+                </div>
+
+            </header>
+
+        </div>
+
+    </section>
+
+
+    <section class="quienesSomos py-4 text-center"> <!--padding y 2-->
+
+        <div class="container">
+
+            <img src="images/cropped-cafe-con-mistica-NUEVO-LOGO-redondo-pt-1.png" alt="" width="181" style="display: block;" class="img-fluid mx-auto mb-2"> <!--margin x auto para centrar-->
+        
+            <h2 class="h3 mb-3">¿Quienes somos?</h2>
+            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolorem illo quam nesciunt sed quaerat ducimus? Blanditiis quae odio laudantium, ratione iusto saepe, libero facere amet reiciendis ducimus architecto incidunt.</p>
+            <a href="#" type="button" class="btn-secondary btn-lg ">MAS INFORMACIÓN</a>
+        </div>
+
+    </section>
+
+
+    <section class="servicios py-4 text-center">
+
+        <div class="container">
+        
+            <h2 class="h3 mb-4">Nuestros servicios</h2>
+            
+            <div class="row"> <!-- Fila 1-->
+                
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <img src="images/clipart2780665.png" alt="" style="display: block;" class="img-fluid mx-auto mb-3">
+                    <h5>Aplicaciones para la nube</h5>
+                    <p>Para empresa que requiere ampliar sus plataformas de gestion</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <img src="images/clipart2780665.png" alt="" style="display: block;" class="img-fluid mx-auto mb-3">
+                    <h5>Fabrica de software</h5>
+                    <p>Servicios de mejora correctiva y evolutiva para sus aplicaciones</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <img src="images/clipart2780665.png" alt="" style="display: block;" class="img-fluid mx-auto mb-3">
+                    <h5>Diseño personalizado</h5>
+                    <p>Customiza hasta el ultimo pixel de tu App. Infinitas posibilidades</p>
+                </div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="ultimosProyectos py-4 text-center">
+
+        <div class="container">
+
+            <h2 class="h3 mb-4">Ultimos proyectos</h2>
+
+            <div class="row"> <!-- Fila 1-->
+                
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <a href="#" class="mx-auto"> <img src="images/clipart2780665.png" alt="" width="250" class="img-fluid mx-auto mb-5 py-5 px-5"> </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <a href="#" class="mx-auto"> <img src="images/clipart2780665.png" alt="" width="250" class="img-fluid mx-auto mb-5 py-5 px-5"> </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <a href="#" class="mx-auto"> <img src="images/clipart2780665.png" alt="" width="250" class="img-fluid mx-auto mb-5 py-5 px-5"> </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <a href="#" class="mx-auto"> <img src="images/clipart2780665.png" alt="" width="250" class="img-fluid mx-auto mb-5 py-5 px-5"> </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <a href="#" class="mx-auto"> <img src="images/clipart2780665.png" alt="" width="250" class="img-fluid mx-auto mb-5 py-5 px-5"> </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4"> <!-- este bloque ocupa 12/12 columnas para pantallas chicas - 6/12 columnas para pantallas medianas y 4/12 para pantallas grandes-->
+                    <a href="#" class="mx-auto"> <img src="images/clipart2780665.png" alt="" width="250" class="img-fluid mx-auto mb-5 py-5 px-5"> </a>
+                </div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer py-4 text-center">
+        <h2 class="h3"> 2022 derechos reservados de ejemplo</h2>
+    </section>
+
+
+</body>
+</html>
